@@ -45,7 +45,7 @@ class WeatherService: ObservableObject{
     @Published var current: Weather?
     @Published var forecast: [Weather] = []
     
-    private let apiKey = "db1d38ea0c3a681752b6423f600e3305"
+    private let apiKey = "YOUR APIKEY"
     private var cancellableSet: Set<AnyCancellable> = []
     
     func load(latitude: Float, longitude: Float){
